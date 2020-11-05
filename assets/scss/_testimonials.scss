@@ -51,9 +51,11 @@
         .profile-image {
             display: inline-block;
             margin: 0 auto;
-            width: 80px;
-            height: 80px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%; // Added this for circles
         }
+
         .quote {
             background: rgba(0, 0, 0, 0.2);
             color: #fff;
@@ -79,6 +81,15 @@
         }
         .quote-source {
             color: rgba(0, 0, 0, 0.6);
+
+            .testimonial-icon {
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                // margin: 0 auto;
+                margin-right: 5px;
+                // padding-left: 10px;
+            }
         }
     }
 
