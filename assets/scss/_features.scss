@@ -2,6 +2,7 @@
 .features-section {
     padding-top: 90px;
     padding-bottom: 90px;
+    background: $smoky-white;
     .section-title {
         margin: 0;
         margin-bottom: 15px;
@@ -9,18 +10,22 @@
         font-weight:300;
     }
     .intro {
-        color: $text-grey;
-        font-size: 16px;
+        color: darken($text-grey, 15%);
+        font-size: 18px;
         max-width: 760px;
         margin: 0 auto;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         a {
-	        color: darken($text-grey, 15%);
+	        color: darken($text-grey, 35%);
 	        &:hover {
 		        color: $text-color;
 	        }
         }
     }
+    // .feature-video {
+    //     border: 1px solid lightgray;
+
+    // }
 }
 
 .feature-nav {

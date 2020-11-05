@@ -12,11 +12,28 @@
         font-weight:300;
         color: #fff;
     }
+
+    .section-footer {
+        margin: 0;
+        margin-top: 20px;
+        font-size: 36px;
+        font-weight:300;
+        color: #fff;
+    }
     
+    // Stole from the "Team" section for the testimonials, hence the mixed naming
+    .member-desc {
+        color: white;
+        font-size: 18px;
+        .testimonial-icon {
+            height: 30px;
+        }
+    }
+
     .item {
         position: relative;
         max-width: 800px;
-        padding: 30px;
+        padding: 10px;
         &:last-child {
             margin-bottom:0;
         }

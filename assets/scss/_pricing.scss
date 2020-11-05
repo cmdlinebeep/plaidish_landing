@@ -2,6 +2,7 @@
 .pricing-section {
     padding-top: 90px;
     padding-bottom: 90px;
+    // background: $smoky-white;
     .section-title {
         margin: 0;
         margin-bottom: 15px;
@@ -35,17 +36,21 @@
     }
     .item-1 {
         .item-inner {
-            background: $color-green;
+            // background: $color-green;
+            // background: #b380ff;
+            background: $color-orange;
         }
     }
     .item-2 {
         .item-inner {
-            background: $color-blue;
+            // background: $color-blue;
+            background: #ff2a7f;
         }
     }
     .item-3 {
         .item-inner {
-            background: $color-orange;
+            // background: $color-orange;
+            background: #7F2AFF;
         }
     }
     .item-heading {
@@ -70,6 +75,11 @@
         }
         .number {
             font-weight: 500;
+        }
+        .frequency {
+            // vertical-align:sub;
+            font-size: 20px;
+            @include opacity(0.6);
         }
     }
 
