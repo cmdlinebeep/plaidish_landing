@@ -1,11 +1,21 @@
 /* ======= About Section ======= */
 .about-section {
+
+    .apply-label {
+        font-size: 15px;
+        text-align: left;
+        .asterisk {
+            color: $color-primary;
+            // vertical-align: super;
+        }
+    }
     padding-top: 90px;
     .section-title {
         margin: 0;
         margin-bottom: 15px;
         font-size: 36px;
         font-weight:300;
+        text-align: center;
     }
     .intro {
         color: $text-grey;
