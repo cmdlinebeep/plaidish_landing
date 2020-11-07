@@ -25,6 +25,31 @@
     }
 }
 
+.hero-section-login {
+    min-height: 320px;
+    background: $text-color;
+    position: relative;
+    
+    .figure-holder-wrapper {
+        position: absolute;
+        left:0;
+        bottom: 0;
+        width:100%;
+        overflow:hidden;
+    }
+    .figure-holder {
+        position: relative;
+        height: 320px;
+        width: 100%;
+       
+        .figure-image {
+            position: absolute;
+            bottom: 0;
+            right: 15px;
+            z-index:10;
+        }
+    }
+}
 
 .hero-carousel {
     height: 560px;
@@ -82,4 +107,58 @@
 
 }
 
+.hero-carousel-login {
+    height: 320px;
+    color: #fff;
 
+    .carousel-inner {
+        .carousel-item {
+            height: 320px;
+            background-position: center center;
+        }
+        .item-1 {
+            background-image: url('../images/hero-1.jpg');
+            @include background-size(cover);
+        }
+        .item-2 {
+            background-image: url('../images/hero-2.jpg');
+            @include background-size(cover);
+        }
+        .item-3 {
+            background-image: url('../images/hero-3.jpg');
+            @include background-size(cover);
+        }
+        .item-4 {
+            background-image: url('../images/hero-4.jpg');
+            @include background-size(cover);
+        }
+        .item-5 {
+            background-image: url('../images/hero-5.jpg');
+            @include background-size(cover);
+        }
+        .item-6 {
+            background-image: url('../images/hero-6.jpg');
+            @include background-size(cover);
+        }
+        .heading {
+            font-size: 30px;
+            line-height: 1.4;
+            font-weight: bold;
+            margin-top:75px;
+            margin-bottom: 15px;
+        }
+        .intro {
+            font-size: 18px;
+            & + .btn {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    // .carousel-inner::after {
+    //     display: block;
+    //     clear: both;
+    //     content: "";
+    //   }
+
+}
